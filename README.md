@@ -134,6 +134,14 @@ Test it:
 mycmd
 ```
 
+## Step 11. Turn into a module
+
+Add this to package.json and save it:
+
+```sh
+"type": "module",
+```
+
 ## Step 11. Add Commander.js
 
 * Reference:  https://www.npmjs.com/package/commander
