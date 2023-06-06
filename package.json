@@ -5,6 +5,8 @@
   "type": "module",
   "bin": "./index.js",
   "scripts": {
+    "start": "node index.js",
+    "test:moo": "npm start -- bogus --moo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

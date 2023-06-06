@@ -155,3 +155,20 @@ npm install --save commander
 ```sh
 npm install --save figlet
 ```
+* * *
+
+## Testing command line locally
+
+Note the use of double dash (`--`) after the start command (similar to how npm exec does it)
+
+```sh
+npm start -- bogus --moo
+```
+
+```sh
+ npm start -- alpha --help
+```
+
+```sh
+ npm start -- alpha bogus --generate
+```
