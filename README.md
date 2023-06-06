@@ -3,7 +3,11 @@
 experiments in command line processing
 --
 
-# Steps
+# Steps 
+
+First part are from my article:
+
+* https://scriptable.com/how-to-create-a-command-line-interface-with-nodejs-cli-zero-setup/
 
 ## Step 1. Create a new project
 
@@ -54,3 +58,39 @@ node index.js
 ```
 
 Verify that the hello message is printed to the terminal.
+
+## Step 7. Initialize git
+To initialize git for this project, run this command:
+
+```sh
+git init 
+```
+
+Add the files (note the period (.) at the end of the command):
+
+```sh
+git add .
+```
+Commit the files:
+
+```sh
+git commit -m "feat: init commit"
+```
+
+## Step 8. Create a git repo
+
+For this example, we want the user to be able to have the utility install itself automatically via the command line. To do that, the target users need to be able to read from your repo.  
+
+To create a new repo in GitHub, browse over to this site and follow the instructions:
+
+```sh
+https://github.com/new
+```
+
+In my case, I created a public repo that can be found here:
+
+```sh
+https://github.com/mitchallen/command-101
+```
+
+If you have an internal or private repo, be sure to give target users access.
