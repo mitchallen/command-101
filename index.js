@@ -28,10 +28,10 @@ function main() {
         .addHelpText(
             "after",
             "\nTo setup an alias:\n" +
-            "\n  1. Add this to ~/.bashrc" +
+            "\n  1. Add this to ~/.bashrc or ~/.zshrc" +
             '\n\n       alias mycmd="npm exec --yes -- https://github.com/mitchallen/command-101";\n' +
             "\n  2. save it" +
-            "\n  3. $ source ~/.bashrc" +
+            "\n  3. $ source ~/.bashrc (or ~/.zshrc)" +
             "\n  4. $ mycmd --help" +
             `\n`
         )
