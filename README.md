@@ -95,3 +95,35 @@ https://github.com/mitchallen/command-101
 ```
 
 If you have an internal or private repo, be sure to give target users access.
+
+## Step 9. Test the command
+
+Starting to jump ahead and diverge from the first reference article here.
+
+* Run this command:
+
+```sh
+npm exec --yes https://github.com/mitchallen/command-101
+```
+
+The yes flag will skip prompting for permission.
+
+## Step 10. Add an alias to Zsh
+
+This step is specific to a Mac running Zsh.
+
+* Open **~/.zshrc** in a code editor
+* Add this line (replacing my git URL with yours):
+
+```sh
+alias mycmd="npm exec --yes https://github.com/mitchallen/command-101";
+```
+
+You don't have to call it "mycmd" - just pick something unique.
+
+* Save the file
+* From the command line, run this command:
+
+```sh
+source ~/.zshrc
+```sh
