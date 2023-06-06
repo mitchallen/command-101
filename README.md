@@ -6,7 +6,7 @@ experiments in command line processing
 
 # Steps 
 
-First part are from my article:
+First part is from my article:
 
 * https://scriptable.com/how-to-create-a-command-line-interface-with-nodejs-cli-zero-setup/
 
