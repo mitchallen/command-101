@@ -103,7 +103,7 @@ Starting to jump ahead and diverge from the first reference article here.
 * Run this command:
 
 ```sh
-npm exec --yes https://github.com/mitchallen/command-101
+npm exec --yes -- https://github.com/mitchallen/command-101
 ```
 
 The yes flag will skip prompting for permission.
