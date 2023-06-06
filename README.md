@@ -116,7 +116,7 @@ This step is specific to a Mac running Zsh.
 * Add this line (replacing my git URL with yours):
 
 ```sh
-alias mycmd="npm exec --yes https://github.com/mitchallen/command-101";
+alias mycmd="npm exec --yes -- https://github.com/mitchallen/command-101";
 ```
 
 You don't have to call it "mycmd" - just pick something unique.
