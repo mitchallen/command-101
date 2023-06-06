@@ -126,4 +126,24 @@ You don't have to call it "mycmd" - just pick something unique.
 
 ```sh
 source ~/.zshrc
+```
+
+Test it:
+
 ```sh
+mycmd
+```
+
+## Step 11. Add Commander.js
+
+* Reference:  https://www.npmjs.com/package/commander
+
+```sh
+npm install --save commander
+```
+
+## Step 12. Add figlet
+
+```sh
+npm install --save figlet
+```
